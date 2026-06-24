@@ -1,0 +1,159 @@
+.home {
+  width: 1920px;
+  margin: 0 auto;
+  background: #000;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.home__container {
+  width: 1880px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* ================= HEADER ================= */
+
+.home__top {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  gap: 10px;
+}
+
+/* Левый блок */
+.home__filter {
+  width: 1370px;
+  height: 80px;
+
+  display: flex;
+  align-items: center;
+
+  padding: 20px 90px 20px 20px;
+  gap: 30px;
+
+  background: #1C1C1C;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+/* Правый блок */
+.home__search {
+  width: 500px;
+  height: 80px;
+
+  display: flex;
+  align-items: center;
+
+  padding: 24px 20px 5px 20px;
+  gap: 30px;
+
+  position: relative;
+
+  background: #1C1C1C;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.home__search::before {
+  content: "Search";
+  position: absolute;
+  top: 10px;
+  left: 20px;
+
+  font-size: 14px;
+  font-weight: 600;
+  color: #bfbfbf;
+}
+
+/* Label */
+.home__label {
+  font-size: 14px;
+  color: #bfbfbf;
+  margin-right: 8px;
+
+}
+
+/* Select */
+.home__select {
+  width: 140px;
+  height: 40px;
+
+  background: #000;
+  border: 1px solid #CFA75E;
+  color: #fff;
+
+  padding: 0 12px;
+  box-sizing: border-box;
+}
+
+/* Input */
+.home__input {
+  flex: 1;
+  height: 40px;
+  margin-right: -20px;
+  background: #000;
+  border: 1px solid #CFA75E;
+  color: #fff;
+
+  padding: 0 12px;
+  box-sizing: border-box;
+}
+
+/* Button */
+.home__search-btn {
+  width: 94px;
+  height: 40px;
+
+  background: #CFA75E;
+  border: none;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* ================= PROVIDER ================= */
+
+.home__provider {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 25px;
+}
+
+/* ================= GRID ================= */
+
+.home__grid {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  gap: 10px;
+}
+
+/* ================= CARD ================= */
+
+.game-card {
+  width: 191.11px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.game-card__image {
+  width: 191px;
+  height: 118px;
+  object-fit: cover;
+}
+
+.game-card__title {
+  width: 101.11px;
+  height: 12px;
+  font-size: 12px;
+  line-height: 12px;
+}
